@@ -8,3 +8,11 @@
     grid-column: 1;
     justify-self: center;
 }
+
+@media screen and (max-width: 1032px) {
+    .filling__info-title {
+        grid-row: 3;
+        grid-column: 1/4;
+        margin: 10px 10px auto 10px;
+    }
+}

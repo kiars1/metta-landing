@@ -10,3 +10,17 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
+@media screen and (max-width: 1083px) {
+    .product__image {
+        margin: 227px 10px 0px auto;
+    }
+    
+}
+
+@media screen and (max-width: 898px) {
+    .product__image {
+        margin: 100px auto 0px auto;
+    }
+    
+}

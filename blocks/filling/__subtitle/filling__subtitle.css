@@ -7,3 +7,11 @@
     grid-column: 1;
     justify-self: center;
 }
+
+@media screen and (max-width: 1032px) {
+    .filling__subtitle {
+        grid-row: 4;
+        grid-column: 1/4;
+        margin: 10px 10px 10px 10px;
+    }
+}
