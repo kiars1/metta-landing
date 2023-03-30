@@ -1,0 +1,10 @@
+.cover__button {
+    border: none;
+    color: #fff;
+    background-color: #193EE9;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px auto 150px auto;
+    font-weight: 700;
+}

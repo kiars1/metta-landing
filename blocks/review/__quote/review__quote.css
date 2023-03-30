@@ -1,0 +1,11 @@
+.review__quote {
+    color: transparent;
+    font-size:  38px;
+    font-weight: 700;
+    line-height: 52px;
+    max-width: 691px;
+    margin: 106px auto 100px auto;
+    grid-row: 1;
+    grid-column: 1;
+    user-select: none;
+}

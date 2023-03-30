@@ -1,0 +1,16 @@
+.review__cite-logo {
+    max-width: 130px;
+    max-height: 40px;
+    align-self: center;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+
+.review__cite-logo:hover {
+    opacity: 0.5;
+    transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -ms-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+}

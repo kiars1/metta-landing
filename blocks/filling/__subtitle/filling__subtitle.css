@@ -1,0 +1,9 @@
+.filling__subtitle {
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 316px;
+    margin: 20px 0px 0px 0px;
+    grid-row: 3/5;
+    grid-column: 1;
+    justify-self: center;
+}

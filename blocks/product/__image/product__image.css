@@ -1,0 +1,12 @@
+.product__image {
+    width: 432px;
+    height: 432px;
+    background-color: #EAFCFC;
+    border-radius: 50%;
+    margin: 227px 0px 0px 0px;
+    display: flex;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

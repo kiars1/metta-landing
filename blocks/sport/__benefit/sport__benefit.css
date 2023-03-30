@@ -1,0 +1,5 @@
+.sport__benefit {
+    display: grid;
+    margin: auto;
+    user-select: none;
+}

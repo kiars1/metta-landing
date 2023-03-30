@@ -1,0 +1,10 @@
+.filling__subtitle_bold {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    grid-column: 1;
+    grid-row: 5;
+    justify-content: center;
+    width: 316px;
+    margin-bottom: 10px;
+}
