@@ -2,4 +2,6 @@
     display: grid;
     margin: auto;
     user-select: none;
+    transform-style: preserve-3d;
+    transform: perspective(100px);
 }

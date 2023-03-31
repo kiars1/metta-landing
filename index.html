@@ -43,8 +43,8 @@
             performance and is easy to drink any time of day.</p>
           <a class="product__com-subtitle product__com-subtitle_bold" href="#">Taste Metta</a>
         </div>
-        <div class="product__image">
-          <img class="product__image-jar" src="./images/water-jar.png">
+        <div class="product__image" data-tilt>
+          <img class="product__image-jar" src="./images/water-jar.png" alt="jar">
         </div>
         <ul class="product__compaund">
           <li>
@@ -70,7 +70,6 @@
         </ul>
       </div>
     </section>
-
     <section class="review">
       <blockquote class="review__quote review__quote_active">“I swear I felt more energized after just half a can. I’ll
         keep some for when I’m feeling sluggish.”</blockquote>
@@ -95,7 +94,7 @@
           naturally elevate your mental and physical performance, while helping to correct any underlying stress.</p>
         <a class="sport__com-subtitle sport__com-subtitle_bold" href="#">HOW IT WORKS</a>
       </div>
-      <div class="sport__benefit">
+      <div class="sport__benefit" data-tilt>
         <img class="sport__benefit-image" src="./images/run.png" alt="run">
         <div class="sport__benefit-eq">
           <div class="sport__benefit-eq-line"></div>
@@ -160,7 +159,7 @@
       </ul>
     </section>
 
-    <section class="norris">
+    <section class="norris ukiyo">
       <blockquote class="norris__quote">“Metta is the first thing I pack in my gym bag every morning, I love it!”
       </blockquote>
       <p class="norris__cite">- Casey Norris</p>
@@ -219,6 +218,23 @@
     <img src="./images/Footer-image.png" class="footer__image" alt="drink">
     <h2 class="footer__text">Scroll to shop</h2>
   </footer>
+
+  <div class="popup">
+    <nav class="popup__nav">
+      <ul class="popup__table">
+        <li><a href="#" class="popup__link">Main</a></li>
+        <li><a href="#" class="popup__link">Shop</a></li>
+        <li><a href="#" class="popup__link">Aboute</a></li>
+      </ul>
+    </nav>
+    <div class="popup__background"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/ukiyojs@4.0.4/dist/ukiyo.min.js"></script> <!--Подключение сторонней библиотеки. Через CDN-->
+  <script>
+    new Ukiyo(".ukiyo")
+    const images = document.getElementsByClassName('.ukiyo');
+  </script>
+  <script src="./scripts/vanilla-tilt.js"></script> <!--Подключение сторонней библиотеки. Через локальный факл-->
 </body>
 
 </html>
